@@ -18,7 +18,7 @@
     const height = document.getElementById("myCanvas").height = screen.availHeight;
     const ctx = document.getElementById("myCanvas").getContext("2d");
     const arr = Array(Math.ceil(width / 10)).fill(0);
-    const str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789".split("");
+    const str = "余倩雯是猪".split("");
 
 function rain() {
     ctx.fillStyle = "rgba(0,0,0,0.05)";
@@ -30,7 +30,7 @@ function rain() {
     });
 }
 
-setInterval(rain, 30);
+setInterval(rain, 50);
 </script>
 </body>
 </html>
